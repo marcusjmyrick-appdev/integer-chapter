@@ -10,3 +10,6 @@
 # "Wow, you were born in 1943. You're old!"
 
 p "How old are you?"
+age = gets.chomp
+year_born = 2023 - age.to_i
+puts "Wow, you were born in #{year_born}. You're old!"

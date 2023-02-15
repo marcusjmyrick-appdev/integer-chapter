@@ -10,3 +10,6 @@
 #   false
 
 p "Enter an odd number:"
+num = gets.chomp
+odd_test = num.to_i
+puts odd_test.odd?
